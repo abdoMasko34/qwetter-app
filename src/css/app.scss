@@ -1,0 +1,65 @@
+// app global css in SCSS form
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+
+
+
+$light-blue: rgb(17,93,144);
+$white-color: #fff;
+$light-grey:rgb(247,247,247);
+$red-color: rgb(252, 64, 64);
+
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Rubik', sans-serif;
+}
+body {
+background-color: $white-color
+}
+.active {
+  color: $primary !important;
+}
+.tweet-item {
+  &:hover {
+    background-color: $light-grey !important;
+  }
+  &:focus {
+    background-color: $light-grey !important;
+  }
+}
+.comment-btn {
+  &:hover {
+    // background-color: red;
+    color: $blue-5 !important;
+  }
+  &:focus {
+    // background-color: red;
+    color: $blue-5 !important;
+  }
+}
+.repeat-btn {
+  &:hover {
+    color: $green-5 !important;
+  }
+  &:focus {
+    color: $green-5 !important;
+  }
+}
+.like-btn {
+  &:hover {
+    color: $red-5 !important;
+  }
+  &:focus {
+    color: $red-5 !important;
+  }
+}
+.delete-btn {
+  &:hover {
+    color: $indigo-5 !important;
+  }
+  &:focus {
+    color: $indigo-5 !important;
+  }
+}
